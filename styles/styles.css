@@ -3,4 +3,25 @@
     margin:0;
     text-decoration: none;
     font-family: 'Overpass', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: hsl(223, 19%, 7%)
+}
+
+.container-box{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    width: 20rem;
+    height: 20rem;
+    border-radius: 30px;
+    padding: 32px;
+    box-shadow: 3px 0 3px #1a1a1a66;
+
+
 }
