@@ -4,6 +4,7 @@
     text-decoration: none;
     font-family: 'Overpass', sans-serif;
     color: white;
+    transition: ease-in 0.2s;
 }
 
 body{
@@ -73,7 +74,17 @@ body{
     margin-bottom: 24px;
     margin-right: 12px;
     color: hsla(220, 100%, 94%, 0.278);
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.number:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.number:active{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
 }
 
 .submit-btn{
@@ -90,4 +101,10 @@ body{
     font-size: 1rem;
     text-transform: uppercase;
     border-radius: 100px 100px 100px 100px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
 }
