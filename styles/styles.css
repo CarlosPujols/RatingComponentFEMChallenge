@@ -82,12 +82,12 @@ body{
     font-size: 1rem;
 }
 
-.number:hover{
+.number:focus{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
 
-.number:active{
+.number:hover{
     background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
 }
