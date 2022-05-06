@@ -24,7 +24,7 @@
 
   <!-- Rating state start -->
 
-  <div class="rating-state">
+  <div class="rating-state" id="rating-state">
 
     <div class="container-box">
 
@@ -41,17 +41,17 @@
         </div>
 
         <div class="rating-numbers">
-          <button class="number">1</button>
-          <button class="number">2</button>
-          <button class="number">3</button>
-          <button class="number">4</button>
-          <button class="number">5</button>
+          <button class="number" id="one">1</button>
+          <button class="number" id="two">2</button>
+          <button class="number" id="three">3</button>
+          <button class="number" id="four">4</button>
+          <button class="number" id="five">5</button>
         </div>
 
 
       </div>
 
-      <div class="submit-btn">
+      <div class="submit-btn" id="submit-button">
         <button class="btn">Submit</button>
       </div>
 
@@ -65,7 +65,7 @@
   <!-- Thank you state start -->
 
 
-  <div class="thank-you-state">
+  <div class="thank-you-state hidden" id="thank-you-state">
 
     <div class="container-box">
 
@@ -75,8 +75,8 @@
           <img src="images/illustration-thank-you.svg" alt="">
         </div>
 
-        <div class="score">
-          You selected <!-- Add rating here --> out of 5
+        <div class="score" id="score">
+          You selected 0 out of 5
         </div>
 
         <div class="text">
