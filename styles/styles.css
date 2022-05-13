@@ -88,12 +88,12 @@ body{
 }
 
 .number:focus{
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 12%, 63%);;
     color: hsl(0, 0%, 100%);
 }
 
 .number:hover{
-    background-color: hsl(217, 12%, 63%);
+    background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
 
